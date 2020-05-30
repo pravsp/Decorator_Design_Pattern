@@ -1,4 +1,4 @@
-package beverage;
+package coffeshop.beverage;
 
 public class Decaf extends Beverage{
     public Decaf(){

@@ -1,14 +1,12 @@
-import beverage.Beverage;
-import beverage.DarkRoast;
-import beverage.Decaf;
-import beverage.Expresso;
-import beverage.condiment.Milk;
-import beverage.condiment.Mocha;
-import beverage.condiment.Soy;
-import beverage.condiment.Whip;
+import coffeshop.beverage.*;
+import coffeshop.condiment.*;
 
-public class CoffeeShop {
+public class Shop {
     public static void main(String[] args) {
+        Shop.coffeeshop();
+    }
+
+    public static void coffeeshop(){
         Beverage b1 = new DarkRoast();
         b1 = new Mocha(b1);
         b1 = new Milk(b1);
@@ -25,5 +23,6 @@ public class CoffeeShop {
         b3 = new Mocha(b3);
         b3 = new Mocha(b3);
         System.out.printf(b3.getDescription() + " $%f\n", b3.cost());
+
     }
 }

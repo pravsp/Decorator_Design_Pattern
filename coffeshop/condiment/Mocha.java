@@ -1,8 +1,8 @@
-package beverage.condiment;
+package coffeshop.condiment;
 
-import beverage.Beverage;
+import coffeshop.beverage.Beverage;
 
-public class Mocha extends CondimentDecorator{
+public class Mocha extends CondimentDecorator {
     public Mocha(Beverage beverage){
         this.beverage = beverage;
     }

@@ -1,4 +1,4 @@
-package beverage;
+package coffeshop.beverage;
 
 public class HouseBlend extends Beverage{
     public HouseBlend(){
